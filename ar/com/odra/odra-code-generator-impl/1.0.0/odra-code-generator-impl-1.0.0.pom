@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>odra-java</artifactId>
+		<groupId>ar.com.odra</groupId>
+		<version>1.0.2</version>
+	</parent>
+	<artifactId>odra-code-generator-impl</artifactId>
+	<version>${odra-code-generator-impl.version}</version>
+	<packaging>jar</packaging>
+
+	<name>ODRA Code Generator Implementation</name>
+	<url>http://www.odra.com.ar</url>
+	<organization>
+		<name>ODRA Soluciones Informaticas</name>
+		<url>http://www.odra.com.ar</url>
+	</organization>
+	<inceptionYear>2013</inceptionYear>
+	<developers>
+		<developer>
+			<id>guillermo</id>
+			<name>Guillermo Daniel Salazar</name>
+			<email>guillermo@odra.com.ar</email>
+			<organization>ODRA Soluciones Informaticas</organization>
+		</developer>
+	</developers>
+	<properties>
+		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.thoughtworks.xstream</groupId>
+			<artifactId>xstream</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>ar.com.odra</groupId>
+			<artifactId>odra-code-generator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>proxool</groupId>
+			<artifactId>proxool</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.adobe.blazeds</groupId>
+			<artifactId>blazeds-remoting</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.graniteds</groupId>
+			<artifactId>granite-core</artifactId>
+		</dependency>
+	</dependencies>
+</project>
