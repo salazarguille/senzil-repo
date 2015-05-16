@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+ 	<parent>
+		<artifactId>odra-java</artifactId>
+		<groupId>ar.com.odra</groupId>
+		<version>1.0.2</version>
+	</parent>
+	<artifactId>odra-common</artifactId>
+	<version>${odra-common.version}</version>
+	<name>ODRA Common</name>
+	<url>http://www.odra.com.ar</url>
+	<organization>
+		<name>ODRA Soluciones Informaticas</name>
+		<url>http://www.odra.com.ar</url>
+	</organization>
+	<inceptionYear>2013</inceptionYear>
+	<developers>
+		<developer>
+			<id>guillermo</id>
+			<name>Guillermo Daniel Salazar</name>
+			<email>guillermo@odra.com.ar</email>
+			<organization>ODRA Soluciones Informaticas</organization>
+		</developer>
+	</developers>
+	<properties>
+		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+<!--  		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.core</artifactId>
+			<version>4.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.compendium</artifactId>
+			<version>4.0.1</version>
+		</dependency>
+ --> 		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+		</dependency>
+ 		<dependency>
+			<groupId>net.sourceforge.collections</groupId>
+			<artifactId>collections-generic</artifactId>
+		</dependency>
+ 		<dependency>
+			<groupId>org.safehaus.jug</groupId>
+			<artifactId>jug</artifactId>
+		</dependency>
+	</dependencies>
+</project>
