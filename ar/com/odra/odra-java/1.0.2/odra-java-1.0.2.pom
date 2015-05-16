@@ -67,7 +67,7 @@
 		<javax-mail.version>1.4</javax-mail.version>
 		<javax-validation-api.version>1.0.0.GA</javax-validation-api.version>
 		<jfig.version>1.5.2</jfig.version>
-		<jpa.version>1.0.1.FINAL</jpa.version>
+		<jpa.version>1.0.1.final</jpa.version>
 		<jsoup.version>1.7.2</jsoup.version>
 		<junit.version>4.11</junit.version>
 
