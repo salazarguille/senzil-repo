@@ -236,7 +236,6 @@
 	                <merge>true</merge>                                        <!-- don't delete old artifacts -->
 	                <repositoryName>senzil-repo</repositoryName>      <!-- github repo name -->
 	                <repositoryOwner>salazarguille</repositoryOwner>    <!-- github username  -->
-	              	<!-- <server>github</server> -->
 	              	<oauth2Token>28946b2c9a4a1e417582012619d134155dba2e2f</oauth2Token>
 	            </configuration>
 	            <executions>
