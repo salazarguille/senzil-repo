@@ -6,24 +6,25 @@
 	<version>1.0.2</version>
 	<packaging>pom</packaging>
 	
-	<name>ODRA Java</name>
-	<url>http://www.odra.com.ar</url>
+	<name>Senzil S.R.L. Java Architecture</name>
+	<url>http://www.senzil.com</url>
 	<organization>
-		<name>ODRA Soluciones Informaticas</name>
-		<url>http://www.odra.com.ar</url>
+		<name>Senzil S.R.L.</name>
+		<url>http://www.senzil.com</url>
 	</organization>
-	<inceptionYear>2013</inceptionYear>
+	<inceptionYear>2015</inceptionYear>
 	<developers>
 		<developer>
 			<id>guillermo</id>
 			<name>Guillermo Daniel Salazar</name>
-			<email>guillermo@odra.com.ar</email>
-			<organization>ODRA Soluciones Informaticas</organization>
+			<email>guillermo@senzil.com</email>
+			<organization>Senzil S.R.L.</organization>
+			<url>http://ar.linkedin.com/in/guillesalazar</url>
 		</developer>
 	</developers>
 	<issueManagement>
-		<url>https://github.com/salazarguille/odra-java/issues</url>
-		<system>Github</system>
+		<url>https://bitbucket.org/salazarguille/mms/issues</url>
+		<system>BitBucket Issues</system>
 	</issueManagement>
 	<distributionManagement>
 		<repository>
@@ -225,7 +226,7 @@
 			<plugin>
 	            <groupId>com.github.github</groupId>
 	            <artifactId>site-maven-plugin</artifactId>
-	            <version>0.10</version>
+	            <version>0.11</version>
 	            <configuration>
 	                <message>Maven artifacts for ${project.version}</message>  <!-- git commit message -->
 	                <noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
@@ -235,8 +236,8 @@
 	                <merge>true</merge>                                        <!-- don't delete old artifacts -->
 	                <repositoryName>senzil-repo</repositoryName>      <!-- github repo name -->
 	                <repositoryOwner>salazarguille</repositoryOwner>    <!-- github username  -->
-	                <userName>salazarguille</userName>
-	              	<password>Guille1983</password>
+	              	<!-- <server>github</server> -->
+	              	<oauth2Token>28946b2c9a4a1e417582012619d134155dba2e2f</oauth2Token>
 	            </configuration>
 	            <executions>
 	              <!-- run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase -->
@@ -286,7 +287,6 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<!-- <scope>test</scope> -->
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
@@ -636,13 +636,6 @@
 			<version>${slf4j-simple.version}</version>
 		</dependency>
 
-        <!-- JSON -->
-        <!-- <dependency>
-            <groupId>org.codehaus.jackson</groupId>
-            <artifactId>jackson-mapper-asl</artifactId>
-            <version>${jackson-mapper-asl.version}</version>
-        </dependency> -->
-
         <!-- Utilities -->
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -712,6 +705,18 @@
 		</dependencies>
 	</dependencyManagement>
 	<repositories>
+		<repository>
+			<id>senzil-repo-mvn-repo</id>
+			<url>https://github.com/salazarguille/senzil-repo/raw/mvn-repo/</url>
+			<snapshots>
+			    <enabled>true</enabled>
+			    <updatePolicy>always</updatePolicy>
+			</snapshots>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</releases>
+	    </repository>
         <repository>
             <id>MVNRepository</id>
             <name>Local Repository</name>
