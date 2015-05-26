@@ -1,0 +1,6 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue May 26 11:18:01 ART 2015
+site-maven-plugin-0.12.1-javadoc.jar>=
+site-maven-plugin-0.12.1-sources.jar>=
+site-maven-plugin-0.12.1.jar>=
+site-maven-plugin-0.12.1.pom>=
