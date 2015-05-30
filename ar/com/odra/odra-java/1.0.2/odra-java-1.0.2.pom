@@ -192,6 +192,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.10.3</version>
 				<executions>
 					<execution>
 						<id>attach-javadocs</id>
@@ -263,6 +264,7 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>jxr-maven-plugin</artifactId>
+				<version>2.5</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -572,11 +574,6 @@
         </dependency>
 
 		<!-- ODRA APIs -->
-		<dependency>
-            <groupId>ar.com.odra</groupId>
-            <artifactId>odra-common</artifactId>
-            <version>${odra-common.version}</version>
-        </dependency>
 		<dependency>
             <groupId>ar.com.odra</groupId>
             <artifactId>odra-query</artifactId>
