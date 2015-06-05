@@ -4,7 +4,7 @@
 	<parent>
 		<artifactId>odra-java</artifactId>
 		<groupId>ar.com.odra</groupId>
-		<version>1.0.3-SNAPSHOT</version>
+		<version>1.0.4-SNAPSHOT</version>
 	</parent>
 	<artifactId>odra-injection</artifactId>
   <version>1.0.2</version>
