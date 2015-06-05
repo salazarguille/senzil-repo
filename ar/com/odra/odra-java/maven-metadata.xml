@@ -3,9 +3,10 @@
   <groupId>ar.com.odra</groupId>
   <artifactId>odra-java</artifactId>
   <versioning>
+    <release>1.0.3.RELEASE</release>
     <versions>
-      <version>1.0.3-SNAPSHOT</version>
+      <version>1.0.3.RELEASE</version>
     </versions>
-    <lastUpdated>20150605043044</lastUpdated>
+    <lastUpdated>20150605130410</lastUpdated>
   </versioning>
 </metadata>
