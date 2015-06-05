@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>odra-java</artifactId>
+		<groupId>ar.com.odra</groupId>
+		<version>1.0.2.RELEASE</version>
+	</parent>
+	<artifactId>odra-data-manager</artifactId>
+	<packaging>jar</packaging>
+	<name>Data Manager</name>
+
+	<description>
+The objective of this project is the import of data from different sources to another source (usually it is databases).
+The purpose of this project is to allow that from a source (e.g. an excel or text file) to load the necessary data in another source (e.g. a database) in order to use the application in an easy way. When you use an application (in developing phase), it requires various data (e.g. users, roles, passwords, permissions, etc).
+This API allow delete and generate the database without problems (with data on sources). It only requires have source repository without structure.
+This project only handles the logic of import of data. Another project managed also with java and spring technology, it uses and configures data manager API.
+	</description>
+
+	<properties>
+		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>javax.enterprise</groupId>
+			<artifactId>cdi-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>ar.com.odra</groupId>
+			<artifactId>odra-common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+		</dependency>
+	</dependencies>
+</project>
