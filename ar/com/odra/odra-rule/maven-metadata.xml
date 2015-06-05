@@ -3,10 +3,10 @@
   <groupId>ar.com.odra</groupId>
   <artifactId>odra-rule</artifactId>
   <versioning>
-    <release>1.0.0</release>
+    <release>1.0.4.RELEASE</release>
     <versions>
-      <version>1.0.0</version>
+      <version>1.0.4.RELEASE</version>
     </versions>
-    <lastUpdated>20150605152937</lastUpdated>
+    <lastUpdated>20150605154807</lastUpdated>
   </versioning>
 </metadata>
