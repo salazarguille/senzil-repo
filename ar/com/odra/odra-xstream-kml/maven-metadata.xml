@@ -3,10 +3,10 @@
   <groupId>ar.com.odra</groupId>
   <artifactId>odra-xstream-kml</artifactId>
   <versioning>
-    <release>1.0.0</release>
+    <release>1.0.2.RELEASE</release>
     <versions>
-      <version>1.0.0</version>
+      <version>1.0.2.RELEASE</version>
     </versions>
-    <lastUpdated>20150604232053</lastUpdated>
+    <lastUpdated>20150605004758</lastUpdated>
   </versioning>
 </metadata>
