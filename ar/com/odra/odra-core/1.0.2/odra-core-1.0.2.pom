@@ -15,6 +15,10 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>net.sf.ehcache</groupId>
+			<artifactId>ehcache-core</artifactId>
+		</dependency>
 	    <!-- Jackson Framework -JSON Converter- -->
   		<dependency>
 			<!-- note: typically only ".0" patch version exists for core annotations -->
