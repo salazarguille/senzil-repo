@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ar.com.odra</groupId>
+		<artifactId>odra-java</artifactId>
+		<version>1.0.3.RELEASE</version>
+	</parent>
+	<artifactId>odra-builder</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0.3.RELEASE</version>
+	<name>Builder</name>
+	<description>
+After maintaining and developing several projects, I found the need to create this API which aims to build objects from others by a small configuration by annotations.
+The usage of this API becomes stronger when the java code is based on VOs (Value Objects).
+Whenever you call an external service or method is necessary to create an instance of a given VO and then set all values, littering the code in a massive way. 
+This API allows configure (from annotations given in the fields of a VO), create another VO instance (and type), and set values configured by annotations. This API allows to reduce the number of lines of code considerably.
+	</description>
+	<properties>
+		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>net.sourceforge.collections15</groupId>
+			<artifactId>collections-generic</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.thoughtworks.xstream</groupId>
+			<artifactId>xstream</artifactId>
+		</dependency>
+	</dependencies>
+</project>
