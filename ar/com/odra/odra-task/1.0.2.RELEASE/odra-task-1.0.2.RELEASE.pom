@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ar.com.odra</groupId>
+		<artifactId>odra-java</artifactId>
+		<version>1.0.2.RELEASE</version>
+	</parent>
+	<packaging>jar</packaging>
+	<artifactId>odra-task</artifactId>
+	<name>Task</name>
+	<description>This project is a simple java project which allow to execute tasks in different ways (sync, async, scheluded).</description>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+            <groupId>ar.com.odra</groupId>
+            <artifactId>odra-core</artifactId>
+        </dependency>
+	</dependencies>
+</project>
+
