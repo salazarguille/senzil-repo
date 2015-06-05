@@ -3,10 +3,10 @@
   <groupId>ar.com.odra</groupId>
   <artifactId>odra-rss-reader</artifactId>
   <versioning>
-    <release>1.0.2</release>
+    <release>1.0.4.RELEASE</release>
     <versions>
-      <version>1.0.2</version>
+      <version>1.0.4.RELEASE</version>
     </versions>
-    <lastUpdated>20150605132327</lastUpdated>
+    <lastUpdated>20150605150935</lastUpdated>
   </versioning>
 </metadata>
