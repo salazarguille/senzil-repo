@@ -161,7 +161,7 @@
 					<version>2.1</version>
 					<configuration>
 						<autoVersionSubmodules>true</autoVersionSubmodules>
-						<scmCommentPrefix>[RELEASED] </scmCommentPrefix>
+						<scmCommentPrefix>[RELEASED]</scmCommentPrefix>
 					</configuration>
 				</plugin>
 				<plugin>
