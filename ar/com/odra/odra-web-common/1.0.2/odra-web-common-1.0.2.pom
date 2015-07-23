@@ -16,6 +16,10 @@
 	</properties>
 	<dependencies>
 		<dependency>
+		    <groupId>org.springframework.social</groupId>
+		    <artifactId>spring-social-core</artifactId>
+		</dependency>
+		<dependency>
             <groupId>ar.com.odra</groupId>
             <artifactId>odra-core</artifactId>
         </dependency>
